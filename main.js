@@ -28,6 +28,18 @@ var waitForJQuery = setInterval(function () {
     }
 }, 10);
 
+function bannana() {
+    $("#itsthegun").prop("src", "./Images/BANNANA.jfif")
+    const explosion = new Audio("https://www.youtube.com/watch?v=o84vJH19toI")
+}
+
+
+function TheGun() {
+    $("#things > *:not(hr)").hide("slow");
+    $("#gundiv").show("slow");
+    $("button").prop("disabled", false)
+    $("#gunbutton").prop("disabled", true)
+}
 
 function huh() {
     $("#things > *:not(hr)").hide("slow");
